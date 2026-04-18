@@ -20,6 +20,8 @@ console.log(library[2][2], "\n");
 let row = 0;
 let item = 0;
 
+console.log(library[row][item], "\n");
+
 for (row = 0; row < library.length; row++) {
 	for (item = 0; item < library[row].length; item++) {
 		console.log(library[row][item]);
@@ -27,7 +29,7 @@ for (row = 0; row < library.length; row++) {
 }
 
 // Task 4: Loop that prints all the items on the second shelf
-let secondShelf = [1]; // Index of the second shelf
+let secondShelf = [1]; // index of the second shelf
 
 for (let i = 0; i < library[secondShelf].length; i++) {
 	console.log(library[secondShelf][i]);
